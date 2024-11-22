@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "whatsapp-chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@botpress/sdk": "^1.4.0",
+    "@genkit-ai/googleai": "^0.9.2",
+    "botpress": "^10.51.10",
+    "dotenv": "^16.4.5",
+    "genkit": "^0.9.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "genkit-cli": "^0.9.2"
+  }
+}
